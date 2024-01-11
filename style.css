@@ -1,0 +1,145 @@
+
+
+.hero{
+    background-image: url("images/ganga.jpg");
+    width: 720px;
+    height: 343px;
+    color:white;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;/*flex make content to be in column, need to give direction and make them centerize*/
+    flex-direction: column;
+    align-items: center;
+}
+.hero:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#h1 {
+    background: #1D3557;
+    margin-top: 90px;
+    border-radius: 10px;
+    width: 225px;
+    height:42px;
+}
+#h2 {
+    margin-top: 0px;
+    background: #457B9D;
+    border-radius: 10px;
+    width: 412px;
+    height:52px;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+.activites{
+    background-color:#F1FAEE;
+    width: 720px;
+    height:343px;
+    color:black;
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+.activites:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+h3{
+    margin-top: 0;
+    padding:25px 0 25px 0;
+    font-family: Arial;
+    font-size:   24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align:  center;
+    color: #1D3557;
+}
+.pictures{
+    display: flex;/*flex make content to be in column, need to give direction and make them centerize*/
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img{
+
+    border-radius: 50%;
+}
+.img:hover {
+    box-shadow: 0 0 2px 5px rgba(0, 140, 186, 0.5);
+}
+.section{
+     width:198px;
+     height:227px;
+}
+.section:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+.concert{ 
+ font-family: Arial bold;
+ font-size: 16px;
+ font-weight:bolder 900;
+ line-height: 18px;
+ letter-spacing: 0em;
+ text-align: center;
+ }
+.concert_detail{
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+.last_section{
+    background-color:#FFFFFF;
+    width: 720px;
+    height:343px;
+    display: flex;
+    margin:0 auto;
+}
+.guide{
+    padding:20px 0 20px 0 0;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A8DADC;
+    margin-top:30px;
+    width:400px;
+    height:294px;
+    border-radius: 10px;
+}
+.last_section:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.my_pic{
+    width: 180px;
+    padding-left:20px;
+    padding-top: 20px;
+    height: 248.67px;
+    border-radius:10px;
+}
+.few_lines{
+    padding-left:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.lines{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+   
+
+
+   
+
+
+
+
